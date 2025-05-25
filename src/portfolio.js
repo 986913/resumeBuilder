@@ -309,13 +309,13 @@ const blogSection = {
   subtitle:
     "With Love for Developing cool stuff, I love to write and teach others what I have learnt.",
   displayMediumBlogs: "true", // Set true to display fetched medium blogs instead of hardcoded ones
-  // blogs: [
-  //   {
-  //     url: "https://medium.com/@Ming1994/b-f33702f3f180",
-  //     title: "Ming blog test",
-  //     description: "Just Testing"
-  //   }
-  // ],
+  blogs: [
+    {
+      url: "https://medium.com/@Ming1994/b-f33702f3f180",
+      title: "Ming blog test",
+      description: "Just Testing"
+    }
+  ],
   display: true // Set false to hide this section, defaults to true
 };
 
