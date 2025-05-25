@@ -59,12 +59,12 @@ export default function Projects() {
               );
             })}
           </div>
-          <Button
+          {/* <Button
             text={"More Projects"}
             className="project-button"
             href={socialMediaLinks.github}
             newTab={true}
-          />
+          /> */}
         </div>
       </Suspense>
     );
