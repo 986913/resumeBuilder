@@ -83,6 +83,10 @@ https://fontawesome.com/icons?d=gallery */
       fontAwesomeClassname: "fab fa-react"
     },
     {
+      skillName: "Nestjs",
+      fontAwesomeClassname: "fab fa-nest"
+    },
+    {
       skillName: "jQuery",
       fontAwesomeClassname: "fass fa-j"
     },
