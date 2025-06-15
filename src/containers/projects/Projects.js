@@ -19,11 +19,17 @@ export default function Projects() {
       fetch("/profile.json")
         .then(result => {
           if (result.ok) {
+            console.log("+++ result is", result);
             return result.json();
           }
           throw result;
         })
         .then(response => {
+          // console.log(
+          //   "++ esponse.data.user.pinnedItems.edges is",
+          //   response?.data?.user?.pinnedItems?.edges
+          // );
+          console.log("++ response is", response);
           setrepoFunction(response.data.user.pinnedItems.edges);
         })
         .catch(function (error) {
