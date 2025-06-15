@@ -311,9 +311,9 @@ const blogSection = {
   displayMediumBlogs: true, // Set true to display fetched medium blogs instead of hardcoded ones
   blogs: [
     {
-      url: "https://medium.com/@Ming1994/b-f33702f3f180",
-      title: "Ming blog test",
-      description: "Just Testing"
+      url: "https://medium.com/@Ming1994/core-web-vitals-for-engineers-speed-interactivity-stability-e3d14d7d7a2d",
+      title: "Core Web Vitals for Engineers: Speed, Interactivity, Stability",
+      description: "Core Web Vitals Summary"
     }
   ],
   display: true // Set false to hide this section, defaults to true
@@ -361,7 +361,7 @@ const resumeSection = {
 };
 
 const contactInfo = {
-  title: emoji("Contact Me ☎️"),
+  title: emoji("Contact Me"),
   subtitle:
     "Discuss a project or just want to say hi? My Inbox is open for all.",
   number: "248-688-1111",
