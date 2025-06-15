@@ -16,10 +16,10 @@ export default function Projects() {
 
   useEffect(() => {
     const getRepoData = () => {
-      fetch("/profile.json")
+      // fetch("/profile.json")
+      fetch(process.env.PUBLIC_URL + "/profile.json")
         .then(result => {
           if (result.ok) {
-            console.log("+++ result is", result);
             return result.json();
           }
           throw result;
