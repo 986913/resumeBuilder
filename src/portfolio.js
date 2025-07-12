@@ -318,6 +318,12 @@ const blogSection = {
       url: "https://medium.com/@Ming1994/core-web-vitals-for-engineers-speed-interactivity-stability-e3d14d7d7a2d",
       title: "Core Web Vitals for Engineers: Speed, Interactivity, Stability",
       description: "Core Web Vitals Summary"
+    },
+    {
+      url: "https://medium.com/@Ming1994/understanding-database-normalization-1nf-2nf-3nf-and-denormalization-with-typeorm-examples-da91cffa2ed1",
+      title: "Database Normalization",
+      description:
+        "Understanding Database Normalization: 1NF, 2NF, 3NF, and Denormalization (with TypeORM Examples)"
     }
   ],
   display: true // Set false to hide this section, defaults to true
