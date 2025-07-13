@@ -1,0 +1,15 @@
+{
+  "routes": [
+    {
+      "src": "/Resume\\.pdf",
+      "headers": {
+        "Content-Type": "application/pdf"
+      },
+      "continue": true
+    },
+    {
+      "src": "/(.*)",
+      "dest": "/index.html"
+    }
+  ]
+}
