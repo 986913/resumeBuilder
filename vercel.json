@@ -7,14 +7,5 @@
       },
       "continue": true
     }
-  ],
-  "builds": [
-    {
-      "src": "package.json",
-      "use": "@vercel/static-build",
-      "config": {
-        "includeFiles": ["public/**/*"]
-      }
-    }
   ]
 }
