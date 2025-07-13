@@ -1,15 +1,11 @@
 {
   "routes": [
     {
-      "src": "/Resume\\.pdf",
+      "src": "/resume\\.pdf",
       "headers": {
         "Content-Type": "application/pdf"
       },
       "continue": true
-    },
-    {
-      "src": "/(.*)",
-      "dest": "/index.html"
     }
   ]
 }
