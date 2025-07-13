@@ -43,9 +43,13 @@ export default function Greeting() {
                 {greeting.resumeLink && (
                   <a
                     // href={require("./resume.pdf")}
-                    href={greeting.resumeLink}
+                    href="/MingyueLiu_Resume.pdf"
                     download="MingyueLiu_Resume.pdf"
                     className="download-link-button"
+                    onClick={e => {
+                      // 强制刷新文件版本
+                      e.currentTarget.href = "/resume.pdf?t=" + Date.now();
+                    }}
                   >
                     <Button text="Download my resume" />
                   </a>
