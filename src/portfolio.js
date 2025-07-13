@@ -225,11 +225,11 @@ const bigProjects = {
       // ]
     },
     {
-      image: require("./assets/images/nextjs3.webp"),
-      projectName: "NextJS项目"
+      image: require("./assets/images/animals.webp"),
+      projectName: "AI项目-动物慈善"
     },
     {
-      image: require("./assets/images/three"),
+      image: require("./assets/images/threeJS.png"),
       projectName: "Three项目"
     },
     {
