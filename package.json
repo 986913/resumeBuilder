@@ -23,7 +23,7 @@
   "scripts": {
     "predeploy": "npm run build",
     "start": "node fetch.js && react-scripts start",
-    "build": "react-scripts build && cp public/resume.pdf build/",
+    "build": "react-scripts build",
     "prebuild": "node fetch.js",
     "deploy": "gh-pages -b master -d build",
     "test": "react-scripts test",
