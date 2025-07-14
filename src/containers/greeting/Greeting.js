@@ -42,8 +42,8 @@ export default function Greeting() {
                 <Button text="Contact me" href="#contact" />
                 {greeting.resumeLink && (
                   <a
-                    // href={require("./resume.pdf")}
-                    href="https://drive.google.com/file/d/1RTSnj59vxUI9sVFyGpJUvAyW8T4t1TmG/view"
+                    //在这改最新简历的Link!
+                    href="https://drive.google.com/file/d/1RTSnj59vxUI9sVFyGpJUvAyW8T4t1TmG/view?usp=drive_link"
                     download="MingyueLiu_Resume.pdf"
                     className="download-link-button"
                   >
