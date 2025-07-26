@@ -324,6 +324,12 @@ const blogSection = {
       title: "Database Normalization",
       description:
         "Understanding Database Normalization: 1NF, 2NF, 3NF, and Denormalization (with TypeORM Examples)"
+    },
+    {
+      url: "https://medium.com/@Ming1994/mastering-permutations-combinations-with-backtracking-5c66a9b3ea88",
+      title: "Mastering Permutations & Combinations with Backtracking",
+      description:
+        "Stay tuned for the LeetCode breakdowns — visuals, walkthroughs, and brain-friendly recursion demystified"
     }
   ],
   display: true // Set false to hide this section, defaults to true
