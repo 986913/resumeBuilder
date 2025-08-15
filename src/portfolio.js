@@ -330,6 +330,12 @@ const blogSection = {
       title: "Mastering Permutations & Combinations with Backtracking",
       description:
         "Stay tuned for the LeetCode breakdowns — visuals, walkthroughs, and brain-friendly recursion demystified"
+    },
+    {
+      url: "https://medium.com/@Ming1994/multi-environment-configurations-in-nestjs-from-dotenv-to-the-official-config-module-9803f7097111",
+      title: "Multi-Environment Configurations in NestJS",
+      description:
+        "Multi-Environment Configurations in NestJS: From Dotenv to the Official Config Module"
     }
   ],
   display: true // Set false to hide this section, defaults to true
