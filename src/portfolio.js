@@ -229,9 +229,20 @@ const bigProjects = {
       projectName: "AI项目-动物慈善"
     },
     {
-      image: require("./assets/images/threeJS.png"),
-      projectName: "Three项目"
+      image: require("./assets/images/AI.jpg"),
+      projectName: "AI Agent项目",
+      projectDesc: "traditonal SDE + AI agent integration, AI 项目落地",
+      footerLink: [
+        {
+          name: "参考小红书文章",
+          url: "https://www.xiaohongshu.com/explore/68462913000000000303b1a6?xsec_token=ABv9eF1EVoGj23T4qTBmEtxjpjn2OHw7RCuboFZbTa2jo=&xsec_source=pc_collect"
+        }
+      ]
     },
+    // {
+    //   image: require("./assets/images/threeJS.png"),
+    //   projectName: "Three项目"
+    // },
     {
       image: require("./assets/images/pwa.png"),
       projectName: "PWA项目"
