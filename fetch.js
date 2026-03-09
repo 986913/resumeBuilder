@@ -108,7 +108,8 @@ if (MEDIUM_USERNAME !== undefined) {
 
     console.log(`statusCode: ${res.statusCode}`);
     if (res.statusCode !== 200) {
-      throw new Error(ERR.requestMediumFailed);
+      console.warn(`Warning: Medium fetch failed with status ${res.statusCode}. Using hardcoded blogs.`);
+      return;
     }
 
     res.on("data", d => {
