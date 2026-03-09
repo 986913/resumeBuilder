@@ -213,40 +213,39 @@ const bigProjects = {
   projects: [
     {
       image: require("./assets/images/eat.jpg"),
-      projectName: "What to eat",
+      projectName: "Meal Dice /What To Eat",
       projectDesc:
-        "Picks your meals, grabs the ingredients—American and Chinese included. No more ‘what should I eat?’ ever again!"
-      // footerLink: [
-      //   {
-      //     name: "Visit Website",
-      //     url: "http://saayahealth.com/"
-      //   }
-      //   //  you can add extra buttons here.
-      // ]
-    },
-    {
-      image: require("./assets/images/animals.webp"),
-      projectName: "AI项目-动物慈善"
-    },
-    {
-      image: require("./assets/images/AI.jpg"),
-      projectName: "AI Agent项目",
-      projectDesc: "traditonal SDE + AI agent integration, AI 项目落地",
+        "Picks your meals, grabs the ingredients—American and Chinese included. No more ‘what should I eat?’ ever again!",
       footerLink: [
         {
-          name: "参考小红书文章",
-          url: "https://www.xiaohongshu.com/explore/68462913000000000303b1a6?xsec_token=ABv9eF1EVoGj23T4qTBmEtxjpjn2OHw7RCuboFZbTa2jo=&xsec_source=pc_collect"
+          name: "Visit Website",
+          url: "https://mealdice.com"
         }
       ]
-    },
+    }
+    // {
+    //   image: require("./assets/images/animals.webp"),
+    //   projectName: "AI项目-动物慈善"
+    // },
+    // {
+    //   image: require("./assets/images/AI.jpg"),
+    //   projectName: "AI Agent项目",
+    //   projectDesc: "traditonal SDE + AI agent integration, AI 项目落地",
+    //   footerLink: [
+    //     {
+    //       name: "参考小红书文章",
+    //       url: "https://www.xiaohongshu.com/explore/68462913000000000303b1a6?xsec_token=ABv9eF1EVoGj23T4qTBmEtxjpjn2OHw7RCuboFZbTa2jo=&xsec_source=pc_collect"
+    //     }
+    //   ]
+    // },
     // {
     //   image: require("./assets/images/threeJS.png"),
     //   projectName: "Three项目"
     // },
-    {
-      image: require("./assets/images/pwa.png"),
-      projectName: "PWA项目"
-    }
+    // {
+    //   image: require("./assets/images/pwa.png"),
+    //   projectName: "PWA项目"
+    // }
   ],
   display: true // Set false to hide this section, defaults to true
 };
