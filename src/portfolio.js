@@ -23,7 +23,7 @@ const greeting = {
   username: "Mingyue Liu",
   title: "I'm Mingyue",
   subTitle: emoji(
-    "A passionate Full Stack Software Developer 🚀 having an experience of building Web applications with JavaScript / Reactjs / Golang and some other cool libraries and frameworks."
+    "A passionate Full Stack Software Developer 🚀 having an experience of building Web applications with JavaScript / Reactjs / NestJS and some other cool libraries and frameworks."
   ),
   resumeLink: "/random link", // Set to empty to hide the button
   // resumeLink: "https://drive.google.com/file/d/1ofFdKF_mqscH8WvXkSObnVvC9kK7Ldlu/view?usp=sharing", // Set to empty to hide the button
@@ -46,11 +46,13 @@ const skillsSection = {
   title: "What I do",
   skills: [
     emoji(
-      "⚡ Develop highly interactive Front end / User Interfaces for your web applications"
+      "⚡ Full-Stack Application Architecture: Architect and develop highly scalable, secure web applications using React, TypeScript, and NestJS"
     ),
-    emoji("⚡ Progressive Web Applications ( PWA ) in normal and SPA Stacks"),
     emoji(
-      "⚡ Integration of third party services such as Firebase/ AWS / Digital Ocean"
+      "⚡ Complex UI & State Management: Engineer high-performance user interfaces with advanced state orchestration (Redux, Zustand) for real-time, high-traffic systems"
+    ),
+    emoji(
+      "⚡ DevOps & Cloud Infrastructure: Design fully automated CI/CD pipelines and manage containerized cloud deployments using Docker, Nginx, and AWS "
     )
   ],
 
@@ -76,7 +78,7 @@ https://fontawesome.com/icons?d=gallery */
     },
     {
       skillName: "TypeScript",
-      fontAwesomeClassname: "fas fa-t"
+      fontAwesomeClassname: "fab fa-typescript"
     },
     {
       skillName: "Reactjs",
@@ -87,14 +89,6 @@ https://fontawesome.com/icons?d=gallery */
       fontAwesomeClassname: "fab fa-nest"
     },
     {
-      skillName: "jQuery",
-      fontAwesomeClassname: "fass fa-j"
-    },
-    {
-      skillName: "Golang",
-      fontAwesomeClassname: "fab fa-golang"
-    },
-    {
       skillName: "NPM",
       fontAwesomeClassname: "fab fa-npm"
     },
@@ -103,7 +97,15 @@ https://fontawesome.com/icons?d=gallery */
       fontAwesomeClassname: "fa-solid fa-file-zipper"
     },
     {
+      skillName: "MySQL",
+      fontAwesomeClassname: "fas fa-database"
+    },
+    {
       skillName: "Mongodb",
+      fontAwesomeClassname: "fas fa-database"
+    },
+    {
+      skillName: "Redis",
       fontAwesomeClassname: "fas fa-database"
     },
     {
@@ -113,6 +115,10 @@ https://fontawesome.com/icons?d=gallery */
     {
       skillName: "Docker",
       fontAwesomeClassname: "fab fa-docker"
+    },
+    {
+      skillName: "Nginx",
+      fontAwesomeClassname: "fab fa-nginx"
     }
   ],
   display: true // Set false to hide this section, defaults to true
@@ -170,7 +176,7 @@ const workExperiences = {
   display: true, //Set it to true to show workExperiences Section
   experience: [
     {
-      role: "Software Engineer III",
+      role: "Software Engineer",
       company: "Walmart Inc",
       companylogo: require("./assets/images/walmartLogo.jpg"),
       date: "Aug 2021 – Present"
