@@ -218,7 +218,7 @@ const bigProjects = {
   subtitle: "SOME COOL TOOLS I CREATED TO MAKE LIFE EASIER",
   projects: [
     {
-      image: require("./assets/images/eat.jpg"),
+      image: require("./assets/images/eat.png"),
       projectName: "Meal Dice /What To Eat",
       projectDesc:
         "Picks your meals, grabs the ingredients—American and Chinese included. No more ‘what should I eat?’ ever again!",
