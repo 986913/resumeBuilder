@@ -1,4 +1,4 @@
-import React, {useContext} from "react";
+import React, {useState, useContext} from "react";
 import {Fade} from "react-reveal";
 import emoji from "react-easy-emoji";
 import "./Greeting.scss";
@@ -6,11 +6,13 @@ import landingPerson from "../../assets/lottie/landingPerson";
 import DisplayLottie from "../../components/displayLottie/DisplayLottie";
 import SocialMedia from "../../components/socialMedia/SocialMedia";
 import Button from "../../components/button/Button";
+import ResumeModal from "../../components/resumeModal/ResumeModal";
 import {illustration, greeting} from "../../portfolio";
 import StyleContext from "../../contexts/StyleContext";
 
 export default function Greeting() {
   const {isDark} = useContext(StyleContext);
+  const [isModalOpen, setIsModalOpen] = useState(false);
   if (!greeting.displayGreeting) {
     return null;
   }
@@ -41,16 +43,17 @@ export default function Greeting() {
               <div className="button-greeting-div">
                 <Button text="Contact me" href="#contact" />
                 {greeting.resumeLink && (
-                  <a
-                    //在这改最新简历的Link!
-                    // "https://drive.google.com/uc?export=download&id=xxxxxxxxxxxxxxxxxxxxxxxxxxx"
-                    href="https://drive.google.com/uc?export=download&id=1RTSnj59vxUI9sVFyGpJUvAyW8T4t1TmG"
-                    download="MingyueLiu_Resume.pdf"
+                  <span
                     className="download-link-button"
+                    onClick={() => setIsModalOpen(true)}
                   >
                     <Button text="Download my resume" />
-                  </a>
+                  </span>
                 )}
+                <ResumeModal
+                  isOpen={isModalOpen}
+                  onClose={() => setIsModalOpen(false)}
+                />
               </div>
             </div>
           </div>
