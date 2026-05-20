@@ -52,7 +52,10 @@ const skillsSection = {
       "⚡ Complex UI & State Management: Engineer high-performance user interfaces with advanced state orchestration (Redux, Zustand) for real-time, high-traffic systems"
     ),
     emoji(
-      "⚡ DevOps & Cloud Infrastructure: Design fully automated CI/CD pipelines and manage containerized cloud deployments using Docker, Nginx, and AWS "
+      "⚡ DevOps & Cloud Infrastructure: Design fully automated CI/CD pipelines and manage containerized cloud deployments using Docker, Nginx, and AWS — with AI integration including Anthropic Claude Prompt Engineering, Streaming/SSE, and Vector DB/RAG"
+    ),
+    emoji(
+      "⚡ Infrastructure as Code: Provision and manage scalable cloud infrastructure using Terraform and the full AWS ecosystem — ECS Fargate, RDS, ElastiCache, ALB, Route 53, ACM, S3, CloudFront, and ECR"
     )
   ],
 
@@ -218,14 +221,68 @@ const bigProjects = {
   subtitle: "SOME COOL TOOLS I CREATED TO MAKE LIFE EASIER",
   projects: [
     {
-      image: require("./assets/images/eat.png"),
-      projectName: "Meal Dice /What To Eat",
+      screenshot: require("./assets/images/whattoeat-screenshot.png"),
+      screenshotLink: "https://mealdice.com/signup",
+      projectName: "Meal Dice / What To Eat",
       projectDesc:
         "Picks your meals, grabs the ingredients—American and Chinese included. No more ‘what should I eat?’ ever again!",
+      techStack: {
+        featured: [
+          "React",
+          "NestJS",
+          "Redis",
+          "AWS",
+          "Terraform",
+          "Claude API"
+        ],
+        full: [
+          {
+            category: "Frontend",
+            items: [
+              "React 19",
+              "TypeScript",
+              "React Router 7",
+              "Zustand",
+              "Bootstrap 5",
+              "S3 + CloudFront"
+            ]
+          },
+          {
+            category: "Backend",
+            items: [
+              "NestJS 11",
+              "TypeORM",
+              "MySQL 8.0",
+              "ElastiCache Redis",
+              "Anthropic Claude",
+              "Passport.js",
+              "Jest + Supertest"
+            ]
+          },
+          {
+            category: "DevOps",
+            items: [
+              "AWS ECS Fargate",
+              "Docker",
+              "GitHub Actions",
+              "Terraform",
+              "RDS",
+              "Route 53",
+              "ALB"
+            ]
+          }
+        ]
+      },
       footerLink: [
         {
           name: "Visit Website",
-          url: "https://mealdice.com"
+          url: "https://mealdice.com",
+          icon: "fas fa-external-link-alt"
+        },
+        {
+          name: "GitHub",
+          url: "https://github.com/986913/WHATTOEAT",
+          icon: "fab fa-github"
         }
       ]
     }
@@ -243,10 +300,6 @@ const bigProjects = {
     //       url: "https://www.xiaohongshu.com/explore/68462913000000000303b1a6?xsec_token=ABv9eF1EVoGj23T4qTBmEtxjpjn2OHw7RCuboFZbTa2jo=&xsec_source=pc_collect"
     //     }
     //   ]
-    // },
-    // {
-    //   image: require("./assets/images/threeJS.png"),
-    //   projectName: "Three项目"
     // },
     // {
     //   image: require("./assets/images/pwa.png"),
