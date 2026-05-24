@@ -17,7 +17,7 @@ export default function ResumeModal({isOpen, onClose}) {
       setCode("");
       onClose();
       window.open(
-        "https://drive.google.com/uc?export=download&id=14LT94KKUDR1e4BeehedGW9lN6d71Y1xd",
+        "https://drive.google.com/uc?export=download&id=1ZliTmKVbThJ8W4KZb0OyBefOHvISsUDn",
         "_blank"
       );
     } else {
