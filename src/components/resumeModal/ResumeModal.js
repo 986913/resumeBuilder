@@ -17,7 +17,7 @@ export default function ResumeModal({isOpen, onClose}) {
       setCode("");
       onClose();
       window.open(
-        "https://drive.google.com/uc?export=download&id=1ZliTmKVbThJ8W4KZb0OyBefOHvISsUDn",
+        "https://drive.google.com/uc?export=download&id=1GSvnfKAbUqAazrrLpIl-Op40vrwfOtQJ", //换简历了就改这个id
         "_blank"
       );
     } else {
